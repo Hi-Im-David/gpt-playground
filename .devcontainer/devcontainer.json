@@ -1,0 +1,23 @@
+{
+    "name": "Python 3",
+    // "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye"
+    
+	"dockerFile": "Dockerfile",
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            "settings": {
+                // core
+                "terminal.integrated.defaultProfile.linux": "bash",
+            },
+            "extensions": [
+                // core
+                "ms-toolsai.jupyter",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-azuretools.vscode-docker"
+
+            ]
+        }
+    } 
+}
